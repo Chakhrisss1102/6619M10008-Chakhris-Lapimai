@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- From Tag (Bock Tag) -->
+    <!-- รายละเอียดของ Form เป็ิน (inline tag) -->
+    <!-- method คือวิธีการส่งข้อมูล : POST, PUT, PATCH, DELETE, GET -->
+    <form action="" method="get" enctype="multipart/form-data">
+        <Label for="">ป้อนข้อมูล</Label>
+        <input type="text" id="" name="" placeholder="ป้อนได้ทุกอย่าง">
+        <br><br>
+        <Label for="">ป้อนตัวเลข</Label>
+        <input type="number" name="" id="" placeholder="ไม่ต่ำกว่า 6 ตัว">
+        <br><br>
+        <Label for="">ป้อนรหัสผ่าน</Label>
+        <input type="password" name="" id="" placeholder="ต้องมีอย่างน้อย 8 ตัว">
+        <br><br>
+        <Label for="">ป้อนอีเมล</Label>
+        <input type="email" name="" id="" placeholder="ต้องมี@">
+        <br><br>
+        <Label for="">เลือกคำนำหน้านาม</Label>
+       <input type="radio" name="title" id="" value="mr">นาย
+       <input type="radio" name="title" id="" checked value="mr s">นาง
+       <input type="radio" name="title" id="" value="miss">นางสาว
+       <input type="radio" name="title" id="" value="boy">ด.ช.
+       <input type="radio" name="title" id="" value="girl">ด.ญ.
+       <br><br>
+       <Label for="">เลือกจังหวัด</Label>
+       <select name="" id="">
+       <option value="กรุงเทพ">กรุงเทพ</option>
+       <option value="นครปฐม">นครปฐม</option>
+       <option value="ปทุมธานี">ปทุมธานี</option>
+       <option value="ราชบุรี">ราชบุรี</option>
+       <option value="กาญจนบุรี">กาญจนบุรี</option>
+       <option value="นครศรีธรรมราช">นครศรีธรรมราช</option>
+        </select>
+       <br><br>
+       <label for="">อาหารที่ชอบ</label>
+       <input type="checkbox" name="" id="" value="11" checked>KFC
+       <input type="checkbox" name="" id="" value="22">McDonald
+       <input type="checkbox" name="" id="" value="33">Burger King
+       <input type="checkbox" name="" id="" value="44" checked>Pizza
+       <br><br>
+       <label for="">เลือกวันทีี่</label>
+       <input type="date" name="" id="">
+       <br><br>
+       <label for="">เลือกเวลา</label>
+       <input type="time" name="" id="">
+       <br><br>
+       <label for="">เลือกวันและเวลา</label>
+       <input type="datetime-local" name="" id="">
+       <br><br>
+       <label for="">เลือกไฟล์</label>
+       <input type="file" name="" id="" accept=".pdf, .doc">
+       <!-- ".jpg, .png, .jpeg, .pdf, image/*" -->
+        <input type="hidden" name="std-type" id="" value="ปกติ">
+        <br><br>
+        <input type="submit" value="ตกลง">
+        <input type="reset" value="ยกเลิก">
+        <button>ลงทะเบียน</button>
+        
+    </form>
+</body>
+</html>
